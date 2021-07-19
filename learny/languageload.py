@@ -10,5 +10,7 @@ def language_load(language):
 		print(	"You didn't choose language. I will select german as language."
 				+ "\n"*5)
 		lang = "de_core_news_sm"
+
+	
 	nlp = spacy.load(lang)
 	return nlp

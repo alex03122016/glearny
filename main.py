@@ -3,8 +3,8 @@
 import tkinter as tk
 from tkinter import *
 from tkinter.ttk import *
-#from learny import clozetest, PresentOrPast, colorsyllables
-from learny import *
+from learny import clozetest, wordsearch, PresentOrPast, colorsyllables, infinitive, specialwords
+#from learny import *
 
 #colorsyllables
 def colorSyllables ():
